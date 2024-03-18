@@ -8,8 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-import CommonUtils.PropertyFileUtil;
-import CommonUtils.WebDriverUtil;
+
 
 
 
@@ -17,8 +16,6 @@ public class OrganizationsTest {
 	@Test 
 	public void CreateOrganizationTest() throws IOException
 	{
-
-
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
